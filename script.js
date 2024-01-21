@@ -29,6 +29,7 @@ document.onkeydown = function (e) {
 setInterval(() => {
     dino = document.querySelector('.dino');
     gameOver = document.querySelector('.gameOver');
+    instructions = document.querySelector('.instructions');
     obstacle = document.querySelector('.obstacle');
     dx = parseInt(window.getComputedStyle(dino, null).getPropertyValue('left'));
     dy = parseInt(window.getComputedStyle(dino, null).getPropertyValue('top'));
@@ -40,6 +41,7 @@ setInterval(() => {
     console.log(offsetX, offsetY)
     if (offsetX < 73 && offsetY < 52) {
         gameOver.innerHTML = "Game Over-Reload to Play Again"
+        instructions.innerHTML = ""
         obstacle.classList.remove('obstacleAni')
         audiogo.play();
         setTimeout(() => {
