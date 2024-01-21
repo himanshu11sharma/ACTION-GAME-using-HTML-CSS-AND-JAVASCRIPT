@@ -9,6 +9,8 @@ body {
 
 }
 
+
+
 .gameContainer {
     background-image: url(assets/background.jpg);
     width: 100%;
@@ -58,6 +60,7 @@ body {
     color: whitesmoke;
     text-shadow: -20px -20px 5px whitesmoke;
 }
+
 .instructions {
     position: relative;
     top: 80px;
@@ -67,6 +70,7 @@ body {
     color: whitesmoke;
     text-shadow: -10px -10px 5px whitesmoke;
 }
+
 #scoreCont {
     font-size: 25px;
     color: #e21048;
