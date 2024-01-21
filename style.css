@@ -58,7 +58,15 @@ body {
     color: whitesmoke;
     text-shadow: -20px -20px 5px whitesmoke;
 }
-
+.instructions {
+    position: relative;
+    top: 80px;
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    text-shadow: -10px -10px 5px whitesmoke;
+}
 #scoreCont {
     font-size: 25px;
     color: #e21048;
